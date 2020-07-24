@@ -19,6 +19,7 @@ final class BekkerTests: XCTestCase {
         let process = Process()
         process.executableURL = bekker
         
+        // https://github.com/apple/swift-package-manager/pull/2817
         guard let path = Bundle.module.path(forResource: "aristot.nic.eth_gk", ofType: "xml") else {
             throw "XML not found"
         }
