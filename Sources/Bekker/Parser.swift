@@ -64,10 +64,10 @@ extension Parser: XMLParserDelegate {
 		case "milestone":
 			guard let unit = attributeDict["unit"], let n = attributeDict["n"] else { return }
 			switch unit {
-			case "bekker page":
+			case "bekker page", "section":
 				pluckOut()
 				lastPage = n
-			case "bekker line":
+			case "bekker line", "line":
 				pluckOut()
 				lastLine = n
 			default:
