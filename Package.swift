@@ -21,6 +21,10 @@ let package = Package(
             ]),
         .testTarget(
             name: "BekkerTests",
-            dependencies: ["Bekker"]),
+            dependencies: ["Bekker"],
+            resources: [
+                .copy("aristot.nic.eth_gk.xml")
+            ]
+        ),
     ]
 )

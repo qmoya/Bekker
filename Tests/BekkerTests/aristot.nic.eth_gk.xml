@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Prose//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
+%PersProse;
+]>
+<TEI.2>
+	<teiHeader type="text" status="new">
+		<fileDesc>
+			<titleStmt>
+				<title>Nicomachean Ethics</title>
+				<title type="sub">Machine readable text</title>
+				<author>Aristotle</author>
+				<editor role="editor">J. Bywater</editor>
+	&responsibility;
+	&fund.AnnCPB;
+      </titleStmt>
+	&Perseus.publish;
+      <sourceDesc>
+				<bibl>	  <title>ed. J. Bywater, Aristotle's Ethica Nicomachea</title>
+	  <publisher>Oxford, Clarendon Press</publisher>
+	  <date>1894</date>
+        </bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<refsDecl doctype="TEI.2">
+				<state delim=" " n="chunk" unit="bekker page"/>
+				<state unit="bekker line"/>
+			</refsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language id="greek">Greek
+        </language>
+				<language id="xgreek">transliterated Greek
+        </language>
+				<language id="la">Latin
+	</language>
+				<language id="en">English
+        </language>
+				<language id="de">German
+      </language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>1992</date>
+				<respStmt>
+					<name>staff</name>
+					<resp>ed.</resp>
+				</respStmt>
+				<item>Text was scanned at St. Olaf Spring, 1992.</item>
+			</change>
+			<change>
+				<date>Spring 1993</date>
+				<respStmt>
+					<name>JN</name>
+					<resp>ed.</resp>
+				</respStmt>
+				<item>Tagged in conformance with Prose.g dtd.</item>
+			</change>
+			<change>
+				<date>24-Feb-00</date>
+				<respStmt>
+					<name>AEM</name>
+					<resp>ed.</resp>
+				</respStmt>
+				<item>convert to P3
+$Log: aristot.nic.eth_gk.xml,v $
+Revision 1.3  2010-06-16 19:18:47  rsingh04
+cleaned up bad place tags in a few texts and cleaned up the document format
+
+Revision 1.2  2009/11/04 21:48:03  lcerrato
+fixed typo Aristot. Nic. Eth. 1123a.15
+
+Revision 1.1  2009/10/08 19:10:19  rsingh04
+began reorganizing texts module by collection.  created separate work directory in texts module to keep hopper files separate from in progress files
+
+Revision 1.6  2009/07/31 21:01:48  rsingh04
+fixed milestone divs
+
+Revision 1.5  2009/06/19 19:02:19  lcerrato
+fixed bad bibls
+
+Revision 1.4  2008/11/24 21:41:00  lcerrato
+fixing bibl refs
+
+Revision 1.3  2008/11/13 21:51:14  lcerrato
+fixing bibls/bad cits
+
+Revision 1.2  2006/05/04 20:01:29  packel
+removed a duplicate bekker page
+
+Revision 1.1  2005/07/25 14:29:13  packel
+Converted to XML
+
+Revision 1.9  2005/03/31 20:44:00  mimno
+Bekker pages are milestones
+
+Revision 1.8  2003/07/01 22:14:38  yorkc
+Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+
+Revision 1.7  2001/01/18 22:14:51  amahoney
+put language attribute on headers
+
+Revision 1.6  2000/03/04 20:33:56  dasmith
+Added separate funder entity to TEI header.
+
+Revision 1.5  2000/02/24 17:53:19  amahoney
+convert to P3
+
+      </item>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+
+	<text lang="greek">
+		<body>
+			<div1 type="Book" n="1">
+				<milestone n="1094a" unit="bekker page"/>
+				<milestone n="1" unit="bekker line"/>
+				<head lang="en">Book 1</head>
+				<p>pa=sa te/xnh kai\ pa=sa me/qodos, o(moi/ws de\ pra=ci/s te kai\ proai/resis, a)gaqou= tino\s e)fi/esqai dokei=: dio\ kalw=s a)pefh/nanto ta)gaqo/n, ou(= pa/nt' e)fi/etai. diafora\ de/ tis fai/netai tw=n telw=n: ta\ me\n ga/r ei)sin e)ne/rgeiai, ta\ de\ par' au)ta\s <milestone n="5" unit="bekker line"/>e)/rga tina/. w(=n d' ei)si\ te/lh tina\ para\ ta\s pra/ceis, e)n tou/tois belti/w pe/fuke tw=n e)nergeiw=n ta\ e)/rga. pollw=n de\ pra/cewn ou)sw=n kai\ texnw=n kai\ e)pisthmw=n polla\ gi/netai kai\ ta\ te/lh: i)atrikh=s me\n ga\r u(gi/eia, nauphgikh=s de\ ploi=on, strathgikh=s de\ ni/kh, oi)konomikh=s de\ plou=tos. o(/sai <milestone n="10" unit="bekker line"/>d' ei)si\ tw=n toiou/twn u(po\ mi/an tina\ du/namin, kaqa/per u(po\ th\n i(ppikh\n xalinopoiikh\ kai\ o(/sai a)/llai tw=n i(ppikw=n o)rga/nwn ei)si/n, au(/th de\ kai\ pa=sa polemikh\ pra=cis u(po\ th\n strathgikh/n, kata\ to\n au)to\n dh\ tro/pon a)/llai u(f' e(te/ras: e)n a(pa/sais de\ ta\ tw=n a)rxitektonikw=n te/lh pa/ntwn <milestone n="15" unit="bekker line"/>e)sti\n ai(retw/tera tw=n u(p' au)ta/: tou/twn ga\r xa/rin ka)kei=na diw/ketai. diafe/rei d' ou)de\n ta\s e)nergei/as au)ta\s ei)=nai ta\ te/lh tw=n pra/cewn h)\ para\ tau/tas a)/llo ti, kaqa/per e)pi\ tw=n lexqeisw=n e)pisthmw=n. ei) dh/ ti te/los e)sti\ tw=n praktw=n o(\ di' au(to\ boulo/meqa, ta)=lla de\ dia\ tou=to, kai\ mh\ <milestone n="20" unit="bekker line"/>pa/nta di' e(/teron ai(rou/meqa &lpar;pro/eisi ga\r ou(/tw g' ei)s a)/peiron, w(/st' ei)=nai kenh\n kai\ matai/an th\n o)/recin&rpar;, dh=lon w(s tou=t' a)\n ei)/h ta)gaqo\n kai\ to\ a)/riston. a)=r' ou)=n kai\ pro\s to\n bi/on h( gnw=sis au)tou= mega/lhn e)/xei r(oph/n, kai\ kaqa/per toco/tai skopo\n e)/xontes ma=llon a)\n tugxa/noimen tou= de/ontos; ei) d' <milestone n="25" unit="bekker line"/>ou(/tw, peirate/on tu/pw| ge perilabei=n au)to\ ti/ pot' e)sti\ kai\ ti/nos tw=n e)pisthmw=n h)\ duna/mewn. do/ceie d' a)\n th=s kuriwta/ths kai\ ma/lista a)rxitektonikh=s. toiau/th d' h( politikh\ fai/netai: ti/nas ga\r ei)=nai xrew\n tw=n e)pisthmw=n e)n tai=s po/lesi,
+					<milestone n="1094b" unit="bekker page"/><milestone n="1" unit="bekker line"/>kai\ poi/as e(ka/stous manqa/nein kai\ me/xri ti/nos, au(/th diata/ssei: o(rw=men de\ kai\ ta\s e)ntimota/tas tw=n duna/mewn u(po\ tau/thn ou)/sas, oi(=on strathgikh\n oi)konomikh\n r(htorikh/n: xrwme/nhs de\ tau/ths tai=s loipai=s &lsqb;praktikai=s&rsqb; tw=n e)pisthmw=n, <milestone n="5" unit="bekker line"/>e)/ti de\ nomoqetou/shs ti/ dei= pra/ttein kai\ ti/nwn a)pe/xesqai, to\ tau/ths te/los perie/xoi a)\n ta\ tw=n a)/llwn, w(/ste tou=t' a)\n ei)/h ta)nqrw/pinon a)gaqo/n. ei) ga\r kai\ tau)to/n e)stin e(ni\ kai\ po/lei, mei=zo/n ge kai\ teleio/teron to\ th=s po/lews fai/netai kai\ labei=n kai\ sw/|zein: a)gaphto\n me\n ga\r kai\ e(ni\ <milestone n="10" unit="bekker line"/>mo/nw|, ka/llion de\ kai\ qeio/teron e)/qnei kai\ po/lesin. h( me\n ou)=n me/qodos tou/twn e)fi/etai, politikh/ tis ou)=sa. le/goito d' a)\n i(kanw=s, ei) kata\ th\n u(pokeime/nhn u(/lhn diasafhqei/h: to\ ga\r a)kribe\s ou)x o(moi/ws e)n a(/pasi toi=s lo/gois e)pizhthte/on, w(/sper ou)d' e)n toi=s dhmiourgoume/nois. ta\ de\ kala\ kai\ ta\ di/kaia, <milestone n="15" unit="bekker line"/>peri\ w(=n h( politikh\ skopei=tai, pollh\n e)/xei diafora\n kai\ pla/nhn, w(/ste dokei=n no/mw| mo/non ei)=nai, fu/sei de\ mh/. toiau/thn de/ tina pla/nhn e)/xei kai\ ta)gaqa\ dia\ to\ polloi=s sumbai/nein bla/bas a)p' au)tw=n: h)/dh ga/r tines a)pw/lonto dia\ plou=ton, e(/teroi de\ di' a)ndrei/an. a)gaphto\n ou)=n peri\ toiou/twn <milestone n="20" unit="bekker line"/>kai\ e)k toiou/twn le/gontas paxulw=s kai\ tu/pw| ta)lhqe\s e)ndei/knusqai, kai\ peri\ tw=n w(s e)pi\ to\ polu\ kai\ e)k toiou/twn le/gontas toiau=ta kai\ sumperai/nesqai. to\n au)to\n dh\ tro/pon kai\ a)pode/xesqai xrew\n e(/kasta tw=n legome/nwn: pepaideume/nou ga/r e)stin e)pi\ tosou=ton ta)kribe\s e)pizhtei=n kaq' e(/kaston <milestone n="25" unit="bekker line"/>ge/nos, e)f' o(/son h( tou= pra/gmatos fu/sis e)pide/xetai: paraplh/sion ga\r fai/netai maqhmatikou= te piqanologou=ntos a)pode/xesqai kai\ r(htoriko\n a)podei/ceis a)paitei=n. e(/kastos de\ kri/nei kalw=s a(\ ginw/skei, kai\ tou/twn e)sti\n a)gaqo\s krith/s.
+			</div1>
+		</body>
+	</text>
+</TEI.2>
